@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+@theme {
+	--font-brand: "Merriweather", "serif";
+	--font-main: "Spline Sans", "sans";
+	--color-*: initial;
+	--color-blue-whale: #003049;
+	--color-persian-red: #d62828;
+	--color-pumpkin-orange: #f77f00;
+	--color-sunglow: #fcbf49;
+	--color-tan-brown: #eae2b7;
+	--color-rose-white: #f9f7f3;
+	--color-foggy-grey: #ccc6ba;
+	--color-cold-black: #121214;
+	--shadow-top-deep: 0 30px 35px 35px rgba(0, 0, 0, 0.5);
+}
