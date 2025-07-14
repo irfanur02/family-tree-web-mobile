@@ -13,4 +13,52 @@
 	--color-foggy-grey: #ccc6ba;
 	--color-cold-black: #121214;
 	--shadow-top-deep: 0 30px 35px 35px rgba(0, 0, 0, 0.5);
+
+	--animate-open-modal: openModal 300ms ease-out;
+	@keyframes openModal {
+		0% {
+			transform: scale(0.5);
+			opacity: 0;
+		}
+
+		,
+		100% {
+			opacity: 100;
+			transform: scale(1);
+		}
+	}
+
+	--animate-close-modal: closeModal 300ms ease-out;
+	@keyframes closeModal {
+		from {
+			transform: scale(1);
+			opacity: 1;
+		}
+		to {
+			transform: scale(0.5);
+			opacity: 0;
+		}
+	}
+
+	--animate-open-backdrop-modal: openBackdropModal 300ms ease-out;
+	@keyframes openBackdropModal {
+		0% {
+			opacity: 0;
+		}
+
+		,
+		100% {
+			opacity: 1;
+		}
+	}
+
+	--animate-close-backdrop-modal: closeBackdropModal 300ms ease-out;
+	@keyframes closeBackdropModal {
+		from {
+			opacity: 1;
+		}
+		to {
+			opacity: 0;
+		}
+	}
 }

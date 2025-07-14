@@ -1,6 +1,4 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 // import './assets/css/style.css'
 import Login from '../src/pages/Login/Login'
 import Dashboard from '../src/pages/Dashboard/Dashboard'
@@ -11,6 +9,7 @@ function App() {
   return (
     // <Login />
     <Dashboard />
+
   )
 }
 
